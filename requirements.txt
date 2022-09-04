@@ -91,3 +91,5 @@ wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==3.5.1
 yarl==1.7.0
+gspread
+oauth2client
