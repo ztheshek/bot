@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram bot
+After=network.target
+
+[Service]
+Restart=on-failure
+User=root
+EnvironmentFile=/root/projects/bot/.env
+WorkingDirectory=/root/projects/bot
+ExecStart=/usr/bin/python3.7 /root/projects/bot/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
