@@ -4,3 +4,4 @@ venv/
 creds/
 .idea/
 .DS_Store
+.env
