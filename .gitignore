@@ -1,0 +1,6 @@
+venv/
+*.csv
+*.zip
+creds/
+.idea/
+.DS_Store
